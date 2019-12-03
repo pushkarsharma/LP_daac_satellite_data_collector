@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#sh MODIS_data_fetch.sh e4ftl01.cr.usgs.gov//DP107/MOLA/MYD13Q1.006 /home/pushkar/Desktop/test/ 2013.01.09
+#sh MODIS_data_fetch.sh e4ftl01.cr.usgs.gov//DP107/MOLA/MYD13Q1.006 /home/pushkar/Desktop/test/
 
 # date_str=$3
 
@@ -23,5 +23,5 @@ while ! [[ $start > $end ]]; do
 	done
 
 	mv $data_path/$date_str/* $2/Temperature
-	rm -rf $2/"$(echo "$1" | cut -d'/' -f1)"
 done
+rm -rf $2/"$(echo "$1" | cut -d'/' -f1)"
