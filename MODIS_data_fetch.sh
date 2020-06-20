@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#sh MODIS_data_fetch.sh e4ftl01.cr.usgs.gov//DP107/MOLA/MYD13Q1.006 /home/pushkar/Desktop/test/
+#sh MODIS_data_fetch.sh e4ftl01.cr.usgs.gov//DP107/MOLA/MYD13Q1.006 /FakePath/test/
 
 # date_str=$3
 
